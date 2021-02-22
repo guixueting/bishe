@@ -1,0 +1,157 @@
+.huodong {
+    width: 1200px;
+    // height: 1000px;
+    margin: 0 auto;
+
+    .ant-anchor-link {
+        float: left;
+    }
+
+    //1. 头部
+    .hd_head {
+        img {
+            width: 1200px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .hd_tiao {
+            width: 1200px;
+            height: 70px;
+            background-color: #fff;
+
+            .tab_title {
+                display: inline-block;
+                height: 70px;
+                min-width: 150px;
+                text-align: center;
+
+                p {
+                    display: inline-block;
+                    margin-top: 15px;
+                    color: #666;
+                    padding: 5px;
+                    font-size: 18px;
+                    -webkit-transition: all .2s;
+                    transition: all .2s;
+                }
+
+                .tab_title_active {
+                    font-size: 20px;
+                    color: #e3007c;
+                    border-bottom: 2px solid #e3007c;
+                }
+
+                p:hover {
+                    font-size: 20px;
+                    color: #e3007c;
+                    border-bottom: 2px solid #e3007c;
+                }
+            }
+
+
+        }
+    }
+
+    //2.990封顶，1990封顶，2990封顶
+    .hd_nno {
+        // background-color: pink;
+        margin-top: 50px;
+        // height: 400px;
+
+        .hd_title {
+            margin-bottom: 15px;
+            font-size: 26px;
+            padding-left: 6px;
+            color: #333;
+        }
+    }
+
+    //2.1 990
+    .mynno {
+
+        ul {
+
+            list-style: none;
+            display: flex;
+            justify-content: start;
+            flex-wrap: wrap;
+
+            li {
+                width: 188px;
+                // height: 290px;
+                padding: 10px;
+                margin: 6px;
+                border-radius: 4px;
+                cursor: pointer;
+                background-color: #fff;
+
+                img {
+                    width: 170px;
+                    height: 170px;
+                }
+
+                .proName {
+                    width: 100%;
+                    margin-top: 4px;
+                    margin-bottom: 4px;
+                    font-size: 14px;
+                    color: #4a4343;
+                    height: 38px;
+                    overflow: hidden;
+                    line-height: 20px;
+
+                    //
+                    text-overflow: -o-ellipsis-lastline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+                p{
+                    height: 22px;
+                    margin-top: 0;
+                }
+                .jifen {
+                    width: 100%;
+                    height: 64px;
+                    text-align: center;
+
+                    .dis_price {
+                        color: #e3007c;
+                        font-size: 24px;
+                    }
+
+                    .dis_price>span {
+                        font-size: 12px;
+                        margin-left: 2px;
+                    }
+
+                    .ori_price {
+                        font-size: 16px;
+                        text-decoration: line-through;
+                        color: #c4c0c0;
+                    }
+                }
+
+                .hd_btn {
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    width: 174px;
+                    height: 28px;
+                    line-height: 28px;
+                    font-size: 13px;
+                    text-align: center;
+                    margin: 5px auto 8px;
+                    color: #fff;
+                    border-radius: 15px;
+                    background: linear-gradient(297deg, #d90057, #e30079 48%, #e60099);
+                }
+            }
+        }
+    }
+}

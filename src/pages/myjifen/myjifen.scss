@@ -1,0 +1,214 @@
+.jifen {
+    width: 1200px;
+    // height: 1200px;
+    // background-color: pink;
+    margin: 0 auto;
+    padding-bottom:50px;
+    
+    a{
+        color:#666;
+    }
+    // 导航
+    .d_nav {
+        height: 34px;
+        line-height: 34px;
+        font-size: 12px;
+        color: #030303;
+
+        a {
+            color: #030303;
+        }
+    }
+
+    // 左边
+    .jf_left {
+        width: 220px;
+        min-height: 620px;
+        background-color: #fff;
+        border-radius: 10px;
+        float: left;
+
+        // vertical-align: top;
+        .jfl_title {
+            height: 50px;
+            width: 200px;
+            padding-left: 20px;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: PingFangSC-Medium, PingFang SC;
+            color: #e5008d;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            .strip {
+                width: 2px;
+                height: 10px;
+                background: #e5008d;
+                border-radius: 2px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+        }
+
+        .jfl_fenlei {
+            .t {
+                display: block;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 14px;
+                padding-left: 20px;
+                font-weight: 700;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    width: 180px;
+                    height: 40px;
+                    padding-left: 40px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                li:hover {
+                    color: #e5008d;
+                }
+
+
+            }
+        }
+    }
+
+    // youbian
+    .jf_right {
+        margin-left: 12px;
+        width: calc(100% - 244px);
+        min-height: 620px;
+        // margin-top: 31px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        // background-color: red;
+        float: right;
+        vertical-align: top;
+
+        .title {
+            height: 60px;
+            border-radius: 10px;
+            position: relative;
+            padding-left: 36px;
+            line-height: 60px;
+            font-size: 15px;
+            background-color: #fff;
+
+            p:nth-child(1) {
+                width: 100px;
+                text-align: center;
+                // background-color: purple;
+            }
+
+            p:nth-child(2) {
+                position: absolute;
+                height: 3px;
+                width: 70px;
+                border-radius: 10px;
+                bottom: -15px;
+                left: 50px;
+                background: #e5008d;
+            }
+        }
+
+        .listContent {
+            margin-top: 12px;
+            border-radius: 10px;
+            min-height: 550px;
+            padding: 15px 20px;
+            background-color: #fff;
+
+            .text_m {
+                text-align: center;
+                width: 928px;
+                font-size: 12px;
+                margin: 0 auto;
+                border: none;
+                border-collapse: collapse;
+                border-spacing: 0;
+
+                .il_th_left,
+                .il_th_right {
+                    width: 296px;
+                    height: 40px;
+                    padding: 0 20px 0 0;
+                    line-height: 40px;
+                    background: #fafafa;
+                    text-align: center;
+                    font-size: 14px;
+                    border: none;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    color: #999;
+                }
+
+                .il_th {
+                    text-align: center;
+                    font-size: 14px;
+                    width: 296px;
+                    height: 40px;
+                    line-height: 40px;
+                    background: #fafafa;
+                    color: #999;
+                    font-weight: 100;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    border: none;
+                }
+
+                .addText {
+                    color: #666;
+                    height: 48px;
+                    text-align: center;
+                    font-size: 14px;
+                }
+
+                .il_td_left,
+                .il_td_right {
+                    width: 296px;
+                    height: 48px;
+                    padding: 0 20px 0 0;
+                    max-width: 220px;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    text-align: center;
+                    overflow: hidden;
+                }
+
+                .il_td_left {
+                    font-size: 14px;
+                    color: #030303;
+                }
+                .il_td_right{
+                    font-size: 15px;
+                    color: #e5008d;
+                }
+            }
+        }
+    }
+
+}
+
+.active {
+    color: #e5008d;
+}
+
+.menuName {
+    color: #666;
+}
+
+.xianshi {
+    display: block;
+}
+
+.yincang {
+    display: none;
+}

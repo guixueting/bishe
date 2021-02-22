@@ -1,0 +1,209 @@
+.l_brand {
+    .lb_center {
+        width: 1200px;
+        height: 120px;
+        margin: 0 auto;
+        // background-color: pink;
+
+        .lb_image {
+            .lb_img1 {
+                height: 80px;
+                display: inline-block;
+                line-height: 110px;
+
+                img {
+                    border-right: 2px solid #e5008d;
+                    padding-right: 15px;
+                    width: 220px;
+                    height: 50px;
+
+                }
+            }
+
+            .lb_img2 {
+                display: inline-block;
+                margin-left: 15px;
+
+                img {
+                    width: 120px;
+                    height: 47px;
+                }
+            }
+        }
+    }
+
+    .l_bgc {
+        width: 100%;
+        height: 490px;
+        background: #45a9c9;
+
+        .lbgc_center {
+            width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+            background: url(./image//login.png) no-repeat 50px center;
+            position: relative;
+
+            .lbgc_login {
+                width: 350px;
+                height: 400px;
+                background-color: #fff;
+                position: absolute;
+                right: 0;
+                top: 50px;
+                padding: 20px 15px;
+
+                ul {
+                    list-style: none;
+                    width: 100%;
+                    height: 50px;
+                    border-bottom: 1px solid #ccc;
+
+                    li {
+                        width: 50%;
+                        height: 50px;
+                        float: left;
+                        text-align: center;
+                        font-size: 18px;
+                        line-height: 50px;
+                        box-sizing: border-box;
+                        cursor: pointer;
+                    }
+                }
+
+                // 账号登陆
+                .zhanghao {
+                    width: 100%;
+
+                    .ant-input-affix-wrapper-lg {
+                        margin-top: 20px;
+                    }
+
+                    p {
+                        margin-top: 20px;
+
+                        a {
+                            font-size: 14px;
+                            color: #5b5b5b;
+                        }
+
+                        a:hover {
+                            color: #1d8bd7;
+                        }
+                    }
+
+                    .zh_submit {
+                        width: 100%;
+                        height: 40px;
+                        line-height: 40px;
+                        background-color: #1d8bd7;
+                        color: #fff;
+                        outline: none;
+                        border: none;
+                        margin-top: 15px;
+                        font-size: 18px;
+                        letter-spacing: 6px;
+                        cursor: pointer;
+                    }
+
+                    .zh_submit:hover {
+                        opacity: 0.8;
+                    }
+
+                    .zh_other {
+                        margin-top: 25px;
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                // 扫码登陆
+                .saoma {
+                    width: 100%;
+                    height: 300px;
+                    // background-color: pink;
+                    overflow: hidden;
+
+                    .erImg {
+                        display: block;
+                        width: 160px;
+                        height: 160px;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+
+                    .sm_tishi {
+                        text-align: center;
+                        margin-top: 50px;
+                        img {
+                            display: inline-block;
+                            width: 18px;
+                            height: 18px;
+                        }
+
+                        p {
+                            display: inline-block;
+                            margin-left: 10px;
+                            font-size: 16px;
+                            vertical-align: top;
+                            a:hover{
+                                text-decoration:underline solid #1d8bd7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fc_bottom {
+    .copyright {
+        border-top: 1px solid #ccc;
+        padding-top: 15px;
+    }
+
+    .c-info {
+        font-size: 12px;
+        color: #9E9E9B;
+        text-align: center;
+        line-height: 8px;
+        margin-top: 10px;
+    }
+
+    .tupian {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .tupian a {
+        width: 103px;
+        height: 32px;
+        display: inline-block;
+        background: url(../login/image/ico_footer.png) no-repeat 0 -151px;
+    }
+
+    .tupian .kexin {
+        background-position: -104px -151px;
+    }
+}
+
+.active {
+    display: block;
+}
+
+.hidd {
+    display: none;
+}
+
+.clickspan {
+    box-sizing: border-box;
+    display: inline-block;
+    border-bottom: 2px solid#0c69ae;
+    line-height: 50px;
+    padding: 0 20px;
+}

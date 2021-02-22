@@ -1,0 +1,163 @@
+.foot_center {
+    width: 1200px;
+    // height: 200px;
+    // background-color: pink;
+    margin: 0 auto;
+    border-top: 1px solid #DEDEDE;
+    .fc_top {
+        ul {
+            list-style: none;
+        }
+
+        .footer-service {
+            border-bottom: 1px solid #DEDEDE;
+            
+        }
+
+        .footer-service-inner {
+            padding: 25px 0;
+
+        }
+
+        .footer-service-inner li {
+            float: left;
+            width: 297px;
+            height: 42px;
+            margin-top: 20px!important;
+        }
+
+        .service_unit {
+            width: 225px;
+            height: 42px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .service_unit h5 {
+            width: 36px;
+            height: 42px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url(../Footer/images/ico_service.png) no-repeat;
+            text-indent: -999px;
+            overflow: hidden;
+        }
+
+        .service_unit p {
+            line-height: 42px;
+            margin-left: 45px;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+
+        .service_unit .kuai {
+            background-position: 0 -44px;
+        }
+
+        .service_unit .hao {
+            background-position: 0 -86px;
+        }
+
+        .service_unit .sheng {
+            background-position: 0 -128px;
+        }
+    }
+
+    .fc_center {
+        ul {
+            list-style: none;
+
+            li {
+                width: 16.66666666666666%;
+                height: 150px;
+                border: 1px solid #000;
+                float: left;
+            }
+        }
+
+        .help {
+            height: 180px;
+            /* background-color: pink; */
+            padding-top: 20px;
+        }
+
+        .help dl {
+            float: left;
+            width: 16.66666666666666666666666666666%;
+            text-align: center;
+        }
+
+        .help dt {
+            font-size: 14px;
+            font-weight: 700;
+            color: #030303;
+            height: 30px;
+
+        }
+
+        .help dd {
+            height: 20px;
+        }
+
+        .help dd a {
+            color: #727272;
+            font-size: 12px;
+        }
+
+        .help dd a:hover {
+            color: #e3007c;
+        }
+
+        .cover dt {
+            text-align: center;
+        }
+
+        .help .info {
+            width: 175px;
+            height: 50px;
+            font-size: 12px;
+            margin-top: 5px;
+            margin-left: 10px;
+            line-height: 18px;
+            color: #727272;
+        }
+
+        .more {
+            text-align: right;
+            padding-right: 10px;
+        }
+    }
+
+    .fc_bottom {
+        .copyright {
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+        }
+
+        .c-info {
+            font-size: 12px;
+            color: #9E9E9B;
+            text-align: center;
+            line-height: 8px;
+            margin-top: 10px;
+        }
+
+        .tupian {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .tupian a {
+            width: 103px;
+            height: 32px;
+            display: inline-block;
+            background: url(../Footer/images/ico_footer.png) no-repeat 0 -151px;
+        }
+
+        .tupian .kexin {
+            background-position: -104px -151px;
+        }
+    }
+}

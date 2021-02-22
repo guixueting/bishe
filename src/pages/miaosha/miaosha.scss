@@ -1,0 +1,111 @@
+.miaosha {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .ms_header {
+        h1 {
+            font-size: 35px;
+            font-weight: 600;
+            color: #333;
+            text-align: center;
+            letter-spacing: 5px;
+            margin-top: 20px;
+        }
+    }
+
+    .ms_prodect {
+        width: 1200px;
+        margin-top: 20px;
+        ul {
+            width: 1200px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            li {
+                width: 391px;
+                height: 190px;
+                background-color: #fff;
+                margin-bottom: 13px;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    width: 190px;
+                    height: 190px;
+                    display: inline-block;
+                    background-color: #E6F1F3;
+                }
+
+                .msp_cart {
+                    height: 190px;
+                    // background-color: red;
+                    width: 180px;
+                    padding-top: 30px;
+                    box-sizing: border-box;
+                    padding-right: 8px;
+
+                    .name {
+                        font-size: 16px;
+                        color: #333;
+                        height: 16px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: block;
+                        line-height: 16px;
+                    }
+
+                    .desc {
+                        color: rgba(0, 0, 0, 0.54);
+                        margin-top: 14px;
+                        font-size: 12px;
+                        line-height: 16px;
+                        height: 32px;
+                        width: 100%;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                    }
+
+                    p {
+                        margin-top: 7px;
+
+                        .new {
+                            font-size: 16px;
+                            color: #f1393a;
+                            line-height: 1;
+                            margin-top: 14px;
+                        }
+
+                        .old {
+                            font-size: 12px;
+                            text-decoration: line-through;
+                            margin-left: 10px;
+                            color: rgba(0, 0, 0, 0.54);
+                        }
+                    }
+
+                    .msp_btn {
+                        padding: 7px 28px;
+                        font-size: 14px;
+                        outline: none;
+                        border: 0;
+                        background-color: #f1393a;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            li:hover{
+                box-shadow: 0 0 10px #ccc;
+                transition: 0.3s linear all;
+                transform: translateY(-3px);
+            }
+        }
+    }
+}
+

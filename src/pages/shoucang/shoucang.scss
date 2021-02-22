@@ -1,0 +1,105 @@
+.shoucang {
+    width: 1200px;
+    // background-color: #fff;
+    // height: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+    .my-cart {
+        width: 1200px;
+        color: #444;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    #dele {
+        font-size: 17px;
+    }
+
+    table,
+    td {
+        border-collapse: collapse;
+    }
+
+    table {
+        width: 1200px;
+        text-align: center;
+        color: #666;
+    }
+
+    table tr {
+        display: block;
+        margin-top: 15px;
+        border: 1px solid #e4e4e4;
+        background: #fff;
+        padding: 10px 0;
+    }
+
+    table tr td {
+        width: 240px;
+    }
+
+    table tr td:nth-child(1) {
+        width: 240px;
+    }
+
+    table tr td:nth-child(2) {
+        width: 300px;
+    }
+
+    table tr td:nth-child(3) {
+        width: 180px;
+    }
+
+    .name {
+        span{
+            display: inline-block;
+            width: 280px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+        }  
+        span:hover{
+            color:#e5008d;
+        } 
+       
+    }
+    .qian{
+        font-size: 20px;
+        font-weight: 500;
+        color: #e5008d;
+    }
+    .jf{
+        font-size: 12px;
+        margin-left: 4px;
+        color: #e5008d;
+    }
+    .de{
+        div{
+            margin: 0 auto;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            i{
+                font-size: 16px;
+            }
+        }
+        div:hover{
+            color:#e5008d;
+        }
+    } 
+
+    .nooo{
+     display: none;
+        
+    }
+    .xianshi p{
+        line-height:400px;
+        text-align-last: center;
+    }
+    .xianshi{
+        display: block;
+    }
+}
