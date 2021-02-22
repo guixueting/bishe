@@ -1,0 +1,14 @@
+USE mall;
+
+-- 药品的购物车
+CREATE TABLE yaocart(
+id INT(11),
+NAME VARCHAR(255),
+img_url VARCHAR(255),
+cart_count INT(11),
+jifen VARCHAR(255),
+cart_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+SELECT * FROM yaocart;
+SELECT * FROM shoucang;

@@ -1,0 +1,18 @@
+USE mall;
+
+
+-- 收藏车数据
+CREATE TABLE shoucang(
+id INT,
+NAME VARCHAR(50),
+isXuan BOOLEAN,
+img_url VARCHAR(255),
+sc_count INT(10),
+jifen VARCHAR(255),
+sc_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+
+SELECT * FROM shoucang;
+DROP TABLE shoucang;
+
